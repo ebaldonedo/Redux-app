@@ -1,16 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
+    
+    
     return (
         <div>
-            <nav className='navbar navbar-expand-lg navbar-dark bg-primary justify-content-between'>
+            <nav className='navbar navbar-expand-lg navbar-dark bg-primary justify-content-between mb-4'>
                 <div>
-                    <h1>Redux</h1>
+                    <h1>
+                        <Link to={"/"} className="text-light">Home</Link>
+                    </h1>
                 </div>
 
-                <a href="/productos/nuevo"
-                    className='btn btn-danger nuevo-post d-block d-md-inline-block'
-                >Agregar Producto &#43;</a>
+                <Link to={"productos/nuevo"} className='btn btn-danger nuevo-post d-block d-md-inline-block'
+                >Agregar Producto &#43;</Link>
             </nav>
         </div>
     );

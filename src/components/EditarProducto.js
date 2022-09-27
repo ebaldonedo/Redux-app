@@ -1,12 +1,12 @@
 import React from 'react';
 
-const NuevoProducto = () => {
+const EditarProducto = () => {
     return (
         <div className='row justify-content-center'>
             <div className="col-md-8">
                 <div className="card ">
                     <div className="card-body mt-8">
-                        <h2 className="text-center mb-4  font-weihgt-bold">Agregar nuevo producto</h2>
+                        <h2 className="text-center mb-4  font-weihgt-bold">Editar producto</h2>
 
                         <form >
                             <div className="form-group">
@@ -20,7 +20,7 @@ const NuevoProducto = () => {
                             </div>
 
                             <div className="form-group">
-                                <label > Precio</label>
+                                <label >Precio</label>
                                 <input 
                                     type="number"
                                     className='form-control'
@@ -34,7 +34,7 @@ const NuevoProducto = () => {
                             className='btm btn-primary font-weight-bold text-uppercase d-block w-100'
                             
                             >
-                                Agregar
+                                Guardar Cambios
                             </button>
                         </form>
 
@@ -46,6 +46,4 @@ const NuevoProducto = () => {
     );
 }
 
-export default NuevoProducto;
-
-
+export default EditarProducto;

@@ -4,27 +4,28 @@ import React from 'react';
 import Header from './components/Header';
 
 import {BrowserRouter as Router, Route,Routes} from "react-router-dom"
-import Producto from './components/Producto';
+import Productos from './components/Productos';
 import NuevoProducto from './components/NuevoProducto';
+import EditarProducto from './components/EditarProducto';
 
 function App() {
   return (
-    <div>
-     
-        <Header/>
 
-        <div className="container">
         <Router>
-              <Routes>
-                <Route path="/" element={<Producto />} />
-                <Route path="/productos/nuevo" element={<NuevoProducto/>} />
-                
-              </Routes>
-            </Router>
-        </div>
+          <Header/>
+            <div className="container mb-5">
+                <Routes>
+                  <Route path="/" element={<Productos />} />
+                  <Route path="/productos/nuevo" element={<NuevoProducto/>} />
+                  <Route path="/productos/editar/:id" element={<EditarProducto/>} />
+                  
+                </Routes>
+            </div>
+        </Router>
+       
       
       
-    </div>
+    
   );
 }
 
