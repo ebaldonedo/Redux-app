@@ -1,0 +1,79 @@
+{
+  "productos": [
+    {
+      "nombre": "Rib Eye",
+      "precio": "500",
+      "id": 7
+    },
+    {
+      "nombre": "Jugo de Limón",
+      "precio": 100,
+      "id": 9
+    },
+    {
+      "nombre": "1",
+      "precio": 2,
+      "id": 10
+    },
+    {
+      "nombre": "meat",
+      "precio": 500,
+      "id": 11
+    },
+    {
+      "nombre": "meat",
+      "precio": 500,
+      "id": 12
+    },
+    {
+      "nombre": "meat",
+      "precio": 3,
+      "id": 13
+    },
+    {
+      "nombre": "meat",
+      "precio": 32,
+      "id": 14
+    },
+    {
+      "nombre": "meat",
+      "precio": 32,
+      "id": 15
+    },
+    {
+      "nombre": "meat",
+      "precio": 44,
+      "id": 16
+    },
+    {
+      "nombre": "meat",
+      "precio": 44,
+      "id": 17
+    },
+    {
+      "nombre": "meat",
+      "precio": 44,
+      "id": 18
+    },
+    {
+      "nombre": "meat",
+      "precio": 444,
+      "id": 19
+    },
+    {
+      "nombre": "meat",
+      "precio": 444,
+      "id": 20
+    },
+    {
+      "nombre": "44",
+      "precio": 44,
+      "id": 21
+    },
+    {
+      "nombre": "meat",
+      "precio": 5,
+      "id": 22
+    }
+  ]
+}

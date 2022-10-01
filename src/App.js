@@ -8,11 +8,17 @@ import Productos from './components/Productos';
 import NuevoProducto from './components/NuevoProducto';
 import EditarProducto from './components/EditarProducto';
 
+//Redux
+import {Provider} from "react-redux"
+import store from './store';
+
+
 function App() {
   return (
 
         <Router>
-          <Header/>
+          <Provider store={store}>
+            <Header/>
             <div className="container mb-5">
                 <Routes>
                   <Route path="/" element={<Productos />} />
@@ -21,6 +27,7 @@ function App() {
                   
                 </Routes>
             </div>
+          </Provider>
         </Router>
        
       
