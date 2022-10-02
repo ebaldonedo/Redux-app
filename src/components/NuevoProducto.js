@@ -1,7 +1,7 @@
 import React ,{useState} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { crearNuevoPRoductoAction } from '../actions/productoActions';
-import { useNavigate, Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 //Actions de redux
 
 
