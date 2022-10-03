@@ -12,7 +12,8 @@ const Productos = () => {
     //consultar la Api
     const cargarProductos = () => dispatch(obtenerProductosAction());
     cargarProductos();
-    console.log("render useEffect Productos");
+    
+    // eslint-disable-next-line
   }, []);
 
   //OBTENIENDO STATE
